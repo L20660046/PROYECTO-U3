@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERIA</title>
+    <link rel="stylesheet" href="galeria.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #34495e;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin: 20px 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            width: 200px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery p {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section id="galeria">
+        <h1>GALERIA</h1>
+        <div class="gallery">
+            <a href="https://l20660046.github.io/Actividad_-1/" target="_blank">
+                <img src="img/Lista de Tareas.webp" alt="Lista de Tareas">
+                <p>Lista de Tareas</p>
+            </a>
+
+            <a href="https://l20660046.github.io/Piedra-Papel-o-Tijera/" target="_blank">
+                <img src="img/Piedra, Papel o Tijera.png" alt="Piedra, Papel o Tijera">
+                <p>Piedra, Papel o Tijera</p>
+            </a>
+
+            <a href="https://l20660046.github.io/Actividad_-3/" target="_blank">
+                <img src="img/Filtrar tabla en tiempo real.webp" alt="Filtrar tabla en tiempo real">
+                <p>Filtrar tabla en tiempo real</p>
+            </a>
+
+            <a href="https://l20660046.github.io/Actividad_-4/" target="_blank">
+                <img src="img/Galería de Imágenes con Modal.webp" alt="Galería de Imágenes con Modal">
+                <p>Galería de Imágenes con Modal</p>
+            </a>
+
+            <a href="https://l20660046.github.io/Actividad_-5/" target="_blank">
+                <img src="img/Calculadora.webp" alt="Calculadora">
+                <p>Calculadora</p>
+            </a>
+
+            <a href="https://l20660046.github.io/Actividad_-6/" target="_blank">
+                <img src="img/Convertidor de Unidades.webp" alt="Convertidor de unidades">
+                <p>Convertidor de Unidades</p>
+            </a>
+
+            <a href="https://l20660046.github.io/Actividad_-7/" target="_blank">
+                <img src="img/Contador de Palabras y Caracteres.webp" alt="Contador de palabras y caracteres">
+                <p>Contador de Palabras y Caracteres</p>
+            </a>
+
+            <a href="https://l20660046.github.io/Cronometro/" target="_blank">
+                <img src="img/Cronómetro.webp" alt="Cronómetro">
+                <p>Cronómetro</p>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
